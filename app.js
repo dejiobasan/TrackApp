@@ -3,6 +3,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const dotenv = require("dotenv");
+dotenv.config();
+
 
 const app = express();
 
