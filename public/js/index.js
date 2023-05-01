@@ -1,22 +1,8 @@
-
-// // TO MAKE THE MAP APPEAR YOU MUST
-// // ADD YOUR ACCESS TOKEN FROM
-// // https://account.mapbox.com
-
-// mapboxgl.accessToken = config.ACCESS_KEY;
-
-// const map = new mapboxgl.Map({
-//     container: 'map', // container ID
-//     style: config.STYLE_URL, // style URL
-//     center: [3.4859119998962513, 6.641031492866564], // starting position [lng, lat]
-//     zoom: 9, // starting zoom
-// });
-// Initialize and add the map
 let map;
 
 async function initMap() {
   // The location of User.
-  const position = { lat: 6.8047242, lng: 3.1048864 };
+  const position = { lat: 6.89226751663626, lng: 3.7181666524137893 };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
