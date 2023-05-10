@@ -1,3 +1,4 @@
 .env
 config.js
 creds.json
+node_modules
