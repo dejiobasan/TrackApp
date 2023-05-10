@@ -13,7 +13,7 @@ fetch("/data")
     
       // The map, centered at Users position.
       map = new Map(document.getElementById("map"), {
-        zoom: 12,
+        zoom: 20,
         center: position,
         mapId: "DEMO_MAP_ID",
       });
