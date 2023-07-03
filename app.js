@@ -25,7 +25,7 @@ const firebaseapp = initializeApp(firebaseConfig);
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://track-app-6b927-default-rtdb.firebaseio.com"
+    databaseURL: process.env.databaseURL
 });
 
 const app = express();
